@@ -1,0 +1,4 @@
+pytesseract==0.3.10
+Pillow==10.3.0
+gTTS==2.5.1
+streamlit==1.35.0
