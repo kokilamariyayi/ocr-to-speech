@@ -3,6 +3,16 @@
 > **Transform images into spoken audio instantly!**  
 > A powerful, multilingual tool that extracts text from images and reads it aloud with high-quality speech synthesis.
 
+![GitHub Topics](https://img.shields.io/badge/Topics-OCR--NLP--TTS--Multilingual--Python--Streamlit-blue?style=for-the-badge)
+
+---
+
+## 📝 Project Overview
+
+The **OCR to Speech Converter** is a desktop-friendly web application designed to bridge the gap between visual text and auditory consumption. Whether you're a student trying to convert scanned notes into audiobooks, or someone looking for accessibility tools, this project provides a seamless "Upload & Listen" experience.
+
+By combining the robustness of **Tesseract OCR** for text detection and the natural voices of **Google Text-to-Speech (gTTS)**, the app ensures high accuracy and reliability across various document types.
+
 ---
 
 ## 📸 Project Showcase
@@ -13,26 +23,26 @@
 
 ---
 
+## 🛠️ Languages Used
+
+### 💻 Programming & Frameworks
+- **Python**: Core logic and pipeline.
+- **Streamlit**: Modern, interactive web UI.
+- **Bash/Shell**: Automation and installation scripts.
+
+### 🌐 Human Languages Supported (OCR & TTS)
+- **Primary**: 🇮🇳 Tamil, 🇮🇳 Hindi, 🇺🇸 English.
+- **International**: 🇫🇷 French, 🇪🇸 Spanish, 🇩🇪 German.
+
+---
+
 ## ✨ Key Features
 
 - **🔍 High Precision OCR**: Leveraging **Tesseract OCR** for accurate text extraction.
 - **🔊 Natural Speech Synthesis**: Powered by **gTTS** for crisp, clear audio generation.
-- **🌐 Multilingual Support**: 
-  - 🇮🇳 Tamil
-  - 🇮🇳 Hindi
-  - 🇺🇸 English
-  - 🇫🇷 French
-  - 🇪🇸 Spanish
+- **🌍 Multilingual Engine**: Seamlessly switch between regional and global languages.
 - **⬇️ Instant Download**: Save your generated audio as `.mp3` for offline use.
 - **🖥️ Sleek Interface**: A clean, intuitive **Streamlit** dashboard.
-
----
-
-## 🛠️ Tech Stack
-
-- **Core**: `pytesseract` (OCR), `gTTS` (TTS), `Pillow` (Image Processing)
-- **UI/UX**: `Streamlit`
-- **Logic**: `Python`
 
 ---
 
@@ -49,8 +59,8 @@ Ensure you have **Tesseract OCR** installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone http://github.com/kokilamariyayi/ocr-to-sppech.git
-   cd ocr-to-sppech
+   git clone http://github.com/kokilamariyayi/ocr-to-speech.git
+   cd ocr-to-speech
    ```
 
 2. **Install dependencies:**
